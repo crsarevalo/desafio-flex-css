@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+.contenedor-chat {
+  display: flex;
+}
+
+aside {
+  width: 25%;
+}
+
+.imagen img {
+  height: 2.5rem;
+  border-radius: 50%;
+  border: #e8ebe4 solid 3px;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem 1rem 2rem;
+  border-bottom: #bec1bb solid 2px;
+}
+
+.first {
+  display: flex;
+}
+
+.usuario {
+  padding-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nombre {
+  font-size: 16px;
+  font-weight: 800;
+}
+.status {
+  font-size: 10px;
+  font-weight: 300;
+  color: #bec1bb;
+}
+
+.fa-regular {
+  padding-right: 0.8rem;
+}
+
+button {
+  background-color: #a491d2;
+  font-size: 16px;
+  padding: 0.8rem 4rem 0.8rem 4rem;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #cdc3e6;
+  cursor: pointer;
+}
+.nuevo-chat {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.chats img {
+  height: 3.5rem;
+  border-radius: 50%;
+  border: #e8ebe4 solid 3px;
+}
+
+.chat-activo {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 0.25rem;
+}
+
+.chats {
+  display: flex;
+  border-top: #bec1bb solid 2px;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.chats:hover {
+  background-color: #d4dcff;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-left: #bec1bb solid 2px;
+}
+
+main img {
+  height: 15rem;
+  border-radius: 0.5rem;
+}
+
+main h1 {
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+main h2 {
+  font-size: 18 px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
